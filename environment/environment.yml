@@ -1,0 +1,27 @@
+name: eeg-py39
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.9
+  - hdbscan
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - mne
+  - nltk
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - scikit-learn
+  - seaborn
+  - sentence-transformers
+  - tqdm
+  - transformers
+  - umap-learn
+  - ipywidgets
+  - xgboost
+  - lightgbm
+  - imbalanced-learn
+prefix: /opt/anaconda3/envs/eeg-py39
